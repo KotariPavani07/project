@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 #load the pkl file
-data=joblib.load("D:\\proj2\\ml_source\\covid_diag.pkl")
+data=joblib.load("covid_diag.pkl")
 
 #create a class
 class inp_data(BaseModel):
